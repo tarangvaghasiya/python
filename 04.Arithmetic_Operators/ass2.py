@@ -57,3 +57,24 @@ print(x+z)
 print(x-z)
 print(x*z)
 print(x/z)
+
+#8
+
+print(8-6)
+print(6 - (-5))
+print(-8 - 7)
+print(-7 - (-8))
+
+#9
+
+print(8//6)
+print(6 // (-5))
+print(-8 // 7)
+print(-7 // (-8))
+
+#10
+
+print(8%6)
+print(6 % (-5))
+print(-8 % 7)
+print(-7 % (-8))
