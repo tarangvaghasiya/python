@@ -1,51 +1,197 @@
-#1
-
-name="tarang"
+#part 3..........
+#task1.........
+name="tarang vaghasiya"
 city="surat"
-language="gujrati"
-mass="hii"
-print(name,city,language,mass)
+favourite_programing_language="python"
+message="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis nat"
+print(name)
+print(city)
+print(favourite_programing_language)
+print(message)
 
-#2
+#task2....
+empty=""
+print(type(empty))
+print(len(empty))
 
-a="tararata"
+#task3...
+text = "Python Programming"
 
-print(a)
-print(len(a))
-print(type(a))
+print("Complete string:", text)
+print("Length:", len(text))
+print("First character:", text[0])
+print("Last character:", text[-1])
+print("Third character:", text[2])
+print("Second-last character:", text[-2])
 
-#3
+#part 4 ...........
+#task4....
+text1="Programming"
+print(text[0])
+print(text[2])
+print(text[5])
+print(text[10])
 
-b="Python Programming"
+#task5...
+text1="Programming"
+print(text[-1])
+print(text[-2])
+print(text[-3])
+print(text[-10])
 
-print(b[0:],len(b),b[0],b[18],b[17])
+#task6......
+name = "Tarang Vaghasiya"
 
-#4
+print( name[0])
+print( name[-1])
+print( name[4])
 
-c="Programming"
 
-print(c[0],c[1],c[4],c[9])
+#Part5........
+#task7.......
+text = "Python Programming"
 
-#5
+print("Python:", text[0:6])
+print("Programming:", text[7:18])
+print("Complete string:", text[:])
+print("First 5 characters:", text[:5])
+print("Last 5 characters:", text[-5:])
 
-print(c[-1],c[-2],c[-3],c[-11])
 
-#6
+text1="ABCDEFGHIJKL"
+print(text1[0:12:2])
+print(text1[0:12:3])
+print(text1[1:8:2])
+print(text1[::-1])
 
-d="tarang"
+#task9.....
+string = "Python Programming"
 
-print(d[0],d[5])
+print("Last 5 characters:", string[-5:])
+print("Last 10 characters:", string[-10:])
+print("Reverse string:", string[::-1])
 
-#7
+#task 10.......
+a = "Programming"
 
-print(b[0:6],b[7:],b,b[:5],b[12:])
+print(a[:3])
+print(a[-3:])
+print(a[::2])
+print(a[::-1])
+print(a[1:-1])
 
-#8
+#Part 6.......
+#task 11.......
 
-e="ABCDEFGHIJKL"
+print(len(text1))
+print(len(message))
+print(len(message))
 
-print(e[1:8:2])
 
-#9
+#task12
+print(len(text))
 
-print(e[1:8:-1])
+#Part7......
+#task13........
+first_name = "Tarang"
+last_name = "Vaghasiya"
+
+print(first_name + " " + last_name)
+
+#task14.........
+name = "Tarang"
+age = 18
+city = "Ahmedabad"
+language = "Python"
+
+print("My name is " + name + ". I am " + str(age) + " years old and I live in " + city + ". I am learning " + language + ".")
+
+
+#task15.......
+a = "Age: "
+b = 18
+
+# print(a + b)
+
+print(a + str(b))
+
+#part8
+#task16....
+a = "#"
+
+print(a * 3)
+print(a * 5)
+print(a * 10)
+
+#task17
+print(a*10)
+
+#part9
+#Task18
+#task18
+
+a = "python programming language"
+
+print(a.upper())
+print(a.lower())
+print(a.capitalize())
+print(a.title())
+print(a.swapcase())
+
+#task19
+
+a = "Python"
+b = "python"
+
+print(a == b)
+
+print(a.lower() == b.lower())
+
+#part10....
+
+#task20
+
+a = "Python is a programming language"
+
+print("Python" in a)
+print("programming" in a)
+print("Java" in a)
+print("language" in a)
+
+
+#task21
+
+b = "Python is a programming language"
+
+print(b.find("Python"))
+print(b.find("programming"))
+print(b.find("language"))
+print(b.find("Java"))
+
+
+#task22
+
+c = "Python is a programming language"
+
+print(c.index("Python"))
+print(c.index("programming"))
+print(c.index("language"))
+
+
+
+#task23
+
+d = "banana"
+
+print(d.count("a"))
+print(d.count("n"))
+print(d.count("b"))
+
+
+#task24
+
+e = "student_notes.pdf"
+
+print(e.startswith("student"))
+print(e.endswith(".pdf"))
+print(e.endswith(".txt"))

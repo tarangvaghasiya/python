@@ -1,0 +1,5 @@
+a,b=map(int,input("Enter two numbers: ").split()[:2])
+print(f"first number: {a}, second number: {b}")
+print("hello", end=" ")
+print("world")
+print("hello")
