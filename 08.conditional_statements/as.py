@@ -136,4 +136,98 @@ else:
 
 #18
 
+num3 = int(input("enter your number"))
 
+if num3 >= 0:
+    print("your number is posotive")
+    if num > 100:
+        print("your number is greter than 100")
+else:
+    print("your number is negetive")
+
+#19
+age2=int(input("enter your age"))
+if age2 >= 18 and age2 <=60 :
+    print("your are aproove")
+
+#20
+
+num4 = int(input("enter your number"))
+if num4 == 0:
+    print("your number is zero")
+else:
+    print("your number is non-zero")
+
+#21
+
+age3 = int(input("enter your age"))
+marks5 = int(input("enter your markws"))
+if age3>=18 and marks5>=40 :
+    print("your are eligible")
+else:
+    print("you are not eligible")
+
+#22
+
+num5 = int(input("eneter your number"))
+if num5 < 10 or num5 >100 :
+    print("special")
+
+#23    
+
+has_id = bool(input("enter true ot false"))
+age4 = int(input("anter your age"))
+if age4 >= 18 and has_id is True :
+    print("allowed")
+
+#24
+
+fnum=int(input("enter your first number"))
+snum=int(input("enter your secound number"))
+if fnum > 10 and snum > 10:
+    print("both are greater than 10")
+
+#25
+
+num6 = int(input("enter your number"))
+if num6 <0 or num6 > 100:
+    print("tarang vaghasiya")
+
+#26
+
+is_closed=bool(input("enter door is colse(true) or open(false)"))
+if is_closed == False:
+    print("not")
+else:
+    print("yes")
+
+#27
+
+num7 = int(input("enter your number"))
+if num7 > 10 and num7 <50 :
+    print("number is beetween 10-50")
+
+#28
+
+if num7 >10 or num<50:
+    print("it is outside of range")
+
+#29
+
+is_student=bool(input("youe are student"))
+has_id1=bool(input("you have id"))
+has_ticket=bool(input("you have ticket"))
+if is_student == True:
+    if has_id1 == True:
+        if has_ticket == True:
+            print("allowed")
+
+#30
+
+age5=int(input("enter your age"))
+mark=int(input("enter your mark"))
+has_id2=bool(input("you have id??"))
+if age5 >= 18 and mark >= 40 and has_id2 is True:
+    print("eligible")
+else:
+    print("not eligible")
