@@ -52,27 +52,13 @@
 # else:
 
 #     print("You are not eligible to watch this movie")
+opretion=int(input("enter your opretion number"))
 
 a=int(input("enter your first number"))
 
 b=int(input("enter your second number"))
 
-# a,b=map(int(input("input your num").split()))
-
-
 print("1.addition\n2.subtaration\n3.multiplication\n4.division\n5.flor division\n choose your opretion")
-
-
-# a1= a+b
-
-# a2= a-b
-
-# a3= a*b
-
-# a4= a/b
-
-# a5= a//b
-
 
 aop=int(input("eneter your opretion number"))
 

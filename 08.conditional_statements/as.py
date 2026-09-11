@@ -195,11 +195,11 @@ if num6 <0 or num6 > 100:
 
 #26
 
-is_closed=bool(input("enter door is colse(true) or open(false)"))
-if is_closed == False:
-    print("not")
+is_closed=False
+if not is_closed:
+    print("open door")
 else:
-    print("yes")
+    print("close door")
 
 #27
 
