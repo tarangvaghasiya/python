@@ -6,7 +6,7 @@
 
 
 # a = int(input("Enter your number: "))
-# digit_sum = 0
+# digit_sum = 
 
 # while a > 0:
 #     digit_sum += a % 10  
