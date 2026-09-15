@@ -18,8 +18,101 @@
 # for i in range(1,num):
 #     if i%2==0:
 #         print(i)
-Str=input("enter yiur string").strip()
-length=len(Str)
-for element in range(length):{
-    print(Str[element])
-}
+# Str=input("enter yiur string").strip()
+# length=len(Str)
+# for element in range(length):{
+#     print(Str[element])
+# }
+
+# name = str(input("enter your name:-")).strip()
+# #  length = len(name)
+# # for element in range(length):
+# #     print(name[element])
+
+# for element in name:
+#     print(element)
+
+# word = "banana" 
+# count = 0
+
+# for chare in word:
+#     if chare == "a":
+#         count = count +1
+
+# print(chare,"is ",count)
+
+# for i in range(4):
+#     for j in range(10):
+#         print(i,j)
+
+# for row in range(50):
+for column in range(60000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+):
+        print("tarang vaghasiya",end="")
+    # print()

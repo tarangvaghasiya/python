@@ -8,4 +8,4 @@ if Str == Str2:
     print("string is reversable")
 else:
     print("string is not reversable")
-
+name = "Rahul"
