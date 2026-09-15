@@ -6,7 +6,7 @@
 
 
 # a = int(input("Enter your number: "))
-# digit_sum = 0
+# digit_sum = 
 
 # while a > 0:
 #     digit_sum += a % 10  
@@ -47,72 +47,3 @@
 
 # for row in range(50):
 for column in range(60000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-):
-        print("tarang vaghasiya",end="")
-    # print()
