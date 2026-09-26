@@ -170,12 +170,12 @@
 
 #25
 
-# wo=input("input your word")
-# count=0
-# for i in wo:
-#     if i.isupper():
-#         count+=1
-# print(count)
+wo=input("input your word")
+count=0
+for i in wo:
+    if i.isupper():
+        count+=1
+print(count)
 
 #26
 

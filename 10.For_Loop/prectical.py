@@ -46,4 +46,3 @@
 #         print(i,j)
 
 # for row in range(50):
-for column in range(60000
