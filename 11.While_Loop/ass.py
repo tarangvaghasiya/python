@@ -45,14 +45,14 @@
 
 #5
 
-# i = 5
-# while i >= 1:
-#     j = i
-#     while j >= 1:
-#         print("*",end="")
-#         j-=1
-#     print()
-#     i-=1
+i = 5
+while i >= 1:
+    j = i
+    while j >= 1:
+        print("*",end=" ")
+        j-=1
+    print()
+    i-=1
 
 #6
 
@@ -280,6 +280,17 @@
 #     j=1
 #     while j <= 5:
 #         print(i,end=" ")
+#         j+=1
+#     print()
+#     i+=1
+
+
+# num = int(input("enter number"))
+# i=(num)
+# while i < num+1:
+#     j=1
+#     while j <= 10:
+#         print(f"{i}x{j}={i*j}")
 #         j+=1
 #     print()
 #     i+=1
