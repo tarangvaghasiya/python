@@ -101,34 +101,71 @@
 #     case _:
 #         print("Invalid Account Type")
 
-cc = "caller"
-choise = int(input("enter choise:-"))
+#40
 
-match cc:
-    case "caller":
-        match choise:
-            case 1:
-                print("normal employ")
-            case 2:
-                print("high level worker")
-            case 3:
-                print("manger")
-            case 4:
-                print("deparment head")
-            case _:
-                print("enter vadild number")
-    case "worker":
-        match choise:
-            case 1:
-                print("ask for salary")
-            case 2:
-                print("for any qrary")
-            case 3:
-                print("manger")
-            case 4:
-                print("diector")
-            case _:
-                print("enter vadild number")
-    case _:
-        print("enyet valid role")
+# cc = "caller"
+# choise = int(input("enter choise:-"))
 
+# match cc:
+#     case "caller":
+#         match choise:
+#             case 1:
+#                 print("normal employ")
+#             case 2:
+#                 print("high level worker")
+#             case 3:
+#                 print("manger")
+#             case 4:
+#                 print("deparment head")
+#             case _:
+#                 print("enter vadild number")
+#     case "worker":
+#         match choise:
+#             case 1:
+#                 print("ask for salary")
+#             case 2:
+#                 print("for any qrary")
+#             case 3:
+#                 print("manger")
+#             case 4:
+#                 print("diector")
+#             case _:
+#                 print("enter vadild number")
+#     case _:
+#         print("enyet valid role")
+
+# str1 = input("enter string:-").strip()
+# flag=True
+# cou =0
+# c1 =0
+# for i in str1:
+#     c1 += 1
+#     if i == "o" or i == "O":
+#         # flag=False
+
+#         # print("found")
+#         cou+=1
+#         break
+
+# if cou >= 1:
+#     print("found")
+# else:
+#     print("not found")
+# print(cou)
+# print(c1)
+
+# for i in range(3):
+#     for j in range(3):
+#         if j == 1:
+#             continue
+#         print(i,j)
+
+
+arr = [1, 2, 3]
+
+double = []
+
+for i in range(len(arr)-1,-1,-1):
+    double.append(arr[i]*2)
+
+print(double)
