@@ -8,26 +8,46 @@
 
 # countdown(3)
 
-sum = 0
-def sum1(n):
-    global sum
-    if n == -11:
-        return sum
-    sum+=n
-    return sum1(n-1)
-print(sum1(10))
+# sum = 0
+# def sum1(n):
+#     global sum
+#     if n == -11:
+#         return sum
+#     sum+=n
+#     return sum1(n-1)
+# print(sum1(10))0
  
-def digit_sum(n):
-    if n < 10:
-        return n
+# def digit_sum(n):
+#     if n < 10:
+#         return n
 
-    return n % 10 + digit_sum(n // 10)
+#     return n % 10 + digit_sum(n // 10)
 
-snb = digit_sum(472)
+# snb = digit_sum(472)
 
-def digit_sum(sub):
-    if sun < 10:
-        return sub
+# def digit_sum(sub):
+#     if sun < 10:
+#         return sub
 
-    return sub % 10 + digit_sum(sub // 10)
-print(digit_sum(472))
+#     return sub % 10 + digit_sum(sub // 10)
+# print(digit_sum(472))
+
+# count = 0
+# def abc(n):
+#     global count
+#     count += 1
+#     if count > n+5: 
+#         return
+#     print("count is ",count) 
+#     print(n)
+#     abc(n-1)
+# abc(5)
+
+
+def rdr(n):
+    if n == 0:
+        print("DONE!")
+        return
+    rdr(n-1)
+    print(n)
+rdr(6)
