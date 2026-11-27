@@ -233,3 +233,10 @@
 
 #     stop_at_zero(n - 1)
 
+##################################################################################################################
+
+# def introduce(name, age):
+#     print(f"{name} is {age} years old.")
+
+# person = {"name": "Asha", "age": 20}
+# introduce(**person)

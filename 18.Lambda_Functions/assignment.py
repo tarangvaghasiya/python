@@ -44,7 +44,7 @@
 # lastch = lambda s : s[len(s) -1]
 # print(lastch("abcdef"))
 
-#10
+10
 
-# finalprice = lambda ogprice , discount : ogprice - (ogprice * (discount/100))
-# print(finalprice(5000,10))
+finalprice = lambda ogprice , discount : ogprice - (ogprice * (discount/100))
+print(finalprice(5000,10))
